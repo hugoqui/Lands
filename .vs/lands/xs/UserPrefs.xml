@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{618224E2-877C-45C1-A597-41B33E73E3BE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lands/Views/LoginPage.xaml">
+    <Files>
+      <File FileName="Lands/App.xaml" />
+      <File FileName="Lands/Infrastructure/InstanceLocator.cs" Line="2" Column="31" />
+      <File FileName="Lands/Views/LoginPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="lands" expanded="True">
+            <Node name="Lands" expanded="True">
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="LoginPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="Lands.iOS" expanded="True">
+              <Node name="Resources" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Lands.Android AndroidDesignerPreferredTheme="Theme.DeviceDefault.Light.NoActionBar.Fullscreen" PreferredExecutionTarget="Android.Nexus_5X_API_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Lands.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CC468AF0-E4EC-4140-80F6-100C13663FB9" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
