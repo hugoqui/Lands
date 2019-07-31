@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             BindingContext="{Binding Main, Source={StaticResource Locator}}"
-             x:Class="Lands.Views.LoginPage">
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="Lands.Views.LoginPage" Title="Login"
+    BindingContext="{Binding Main, Source={StaticResource Locator}}">
+
     <ContentPage.Content>
-        <ScrollView>
+        <ScrollView BindingContext="{Binding Login}">
             <StackLayout Padding="20">
             <Label Text="Lands" 
                 HorizontalOptions="Center"
@@ -21,29 +23,33 @@
                 </Grid.ColumnDefinitions>
                 
                 <Label Text="email" />
-                <Entry Grid.Column="1" Placeholder="enter your email..." Keyboard="Email"/>
+                <Entry Grid.Column="1" Text="{Binding Email, Mode=TwoWay}" Placeholder="enter your email..." Keyboard="Email"/>
                 
                 <Label Text="password" Grid.Row="1"/>
-                <Entry Grid.Column="1" Grid.Row="1" Placeholder="enter your password..." IsPassword="true"/>
+                <Entry Grid.Column="1" Grid.Row="1" Text="{Binding Password, Mode=TwoWay}" Placeholder="enter your password..." IsPassword="true"/>
             
             </Grid>            
             
-            <ActivityIndicator/>
+            <ActivityIndicator IsRunning="{Binding IsRuning, Mode=TwoWay}"/>
                 
             <StackLayout Orientation="Horizontal">
                 <Label VerticalOptions="Center" HorizontalOptions="StartAndExpand" Text="Remember me"/>
-                <Switch HorizontalOptions="Center" />
+                <Switch HorizontalOptions="Center" IsToggled="{Binding IsRemembered, Mode=TwoWay}"  />
             </StackLayout>
             
             
-            <Button Text="Login" BackgroundColor="Navy" TextColor="White"
-                    BorderRadius="23"/>
-            <Button Text="Login" BackgroundColor="Purple" TextColor="White"
-                    BorderRadius="23"/>
+            <Button Text="Login" BackgroundColor="Navy" TextColor="White" Command="{Binding LoginCommand}"
+                    BorderRadius="23" IsEnabled="{Binding IsEnabled, Mode=TwoWay}"/>
+            <Button Text="Register" BackgroundColor="Purple" TextColor="White"
+                    BorderRadius="23" IsEnabled="{Binding IsEnabled, Mode=TwoWay}"/>
             
             
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                <Image Source="facebook_logo" WidthRequest="60"  />
+                <Image Source="facebook_logo" WidthRequest="60">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding LoginFacebookCommand}"/>
+                    </Image.GestureRecognizers>
+                </Image>
                 <Image Source="twitter_logo" WidthRequest="60" />
             </StackLayout>
             

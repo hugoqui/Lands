@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Lands.Views.LandsPage"
+    Title="Lands"
+    BindingContext="{Binding Main, Source={StaticResource Locator}}">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="silver"
+            BindingContext="{Binding Lands}">
+
+            <SearchBar Placeholder="Search..."
+                       Text="{Binding Filter, Mode=TwoWay}"
+                       SearchCommand="{Binding SearchCommand}" />            
+
+            <ListView
+                BackgroundColor="silver"
+                HasUnevenRows="True" 
+                IsPullToRefreshEnabled="true"
+                IsRefreshing="{Binding IsRefreshing, Mode=TwoWay}"
+                ItemsSource="{Binding Lands}"
+                SeparatorVisibility="None"
+                RefreshCommand="{Binding RefreshCommand}">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Margin="5" CornerRadius="20" HasShadow="True">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding SelectLandCommand}" />
+                                </Frame.GestureRecognizers>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackLayout 
+                                        Grid.Column="0"
+                                        VerticalOptions="Center">
+                                        <Label
+                                            Margin="0,5,0,0"
+                                            FontAttributes="Bold"
+                                            FontSize="Large" 
+                                            Text="{Binding Name}"
+                                            TextColor="Black">
+                                        </Label>
+                                        <Label  Margin="0,0,0,5"                              
+                                            Text="{Binding Capital}"
+                                            TextColor="Black">
+                                        </Label>
+                                    </StackLayout>
+                                    <Label
+                                        Grid.Column="1"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="Center"
+                                        FontSize="Large" FontAttributes="Bold"
+                                        TextColor="orange"
+                                        Margin="10"
+                                        Text=">">
+                                    </Label>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+            <!--<ListView                
+                ItemsSource="{Binding Lands}"
+                >
+                 <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="aaaa"/>
+                        
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

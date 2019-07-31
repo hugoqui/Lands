@@ -11,13 +11,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NewtonSoft.Json" Version="12.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="3.6.0.264807" />
     <PackageReference Include="Xamarin.Essentials" Version="1.0.1" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="Xam.Plugin.Connectivity" Version="3.2.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
     <Folder Include="Models\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Infrastructure\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ViewModels\INotifyLogicChanged.cs" />
   </ItemGroup>
 </Project>

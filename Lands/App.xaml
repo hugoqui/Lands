@@ -5,7 +5,7 @@
              x:Class="Lands.App">
     <Application.Resources>
         
-        <ResourceDictionary>
+       <ResourceDictionary>
             <infra:InstanceLocator x:Key="Locator"/>
         </ResourceDictionary>
         

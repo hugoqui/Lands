@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hugoquinonez/Projects/xamarin/Lands/Lands.Android/Lands.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/hugoquinonez/Projects/xamarin/Lands/Lands.Android/Lands.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hugoquinonez/Projects/xamarin/Lands/Lands.Android/Lands.Android.csproj",
+        "projectName": "Lands.Android",
+        "projectPath": "/Users/hugoquinonez/Projects/xamarin/Lands/Lands.Android/Lands.Android.csproj",
+        "packagesPath": "/Users/hugoquinonez/.nuget/packages/",
+        "outputPath": "/Users/hugoquinonez/Projects/xamarin/Lands/Lands.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/hugoquinonez/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {
+              "/Users/hugoquinonez/Projects/xamarin/Lands/Lands/Lands.csproj": {
+                "projectPath": "/Users/hugoquinonez/Projects/xamarin/Lands/Lands/Lands.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Xamarin.Android.Support.Core.Utils": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.264807, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/hugoquinonez/Projects/xamarin/Lands/Lands/Lands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hugoquinonez/Projects/xamarin/Lands/Lands/Lands.csproj",
+        "projectName": "Lands",
+        "projectPath": "/Users/hugoquinonez/Projects/xamarin/Lands/Lands/Lands.csproj",
+        "packagesPath": "/Users/hugoquinonez/.nuget/packages/",
+        "outputPath": "/Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/hugoquinonez/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MvvmLightLibs": {
+              "target": "Package",
+              "version": "[5.4.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "NewtonSoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.264807, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

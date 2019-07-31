@@ -1,3 +1,50 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=SystemNative_StrErrorR
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_FStat2
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ChMod
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_RmDir
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_UTime
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_UTimes
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
 Function=xamarin_timezone_get_names
 	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/mscorlib.dll
 Function=xamarin_timezone_get_data
@@ -372,6 +419,14 @@ Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2_Int64
 Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2
 	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSend
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSendSuper
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSend_stret
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSendSuper_stret
 	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSend
 	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
@@ -969,15 +1024,33 @@ Function=xamarin_localized_string_format_9
 	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_init_nsthread
 	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=CreateZStream
+Function=NetSecurityNative_ReleaseGssBuffer
 	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
-Function=CloseZStream
+Function=NetSecurityNative_DisplayMinorStatus
 	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
-Function=Flush
+Function=NetSecurityNative_DisplayMajorStatus
 	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
-Function=ReadZStream
+Function=NetSecurityNative_ImportUserName
 	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
-Function=WriteZStream
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_AcceptSecContext
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Wrap
+	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Unwrap
 	/Users/hugoquinonez/Projects/xamarin/Lands/Lands.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone7.2-12.4/mtouch-cache/1-Link/System.dll
 Function=mono_pmip
 Function=xamarin_dyn_objc_msgSend

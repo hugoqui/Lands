@@ -4,6 +4,7 @@
 /Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/Debug/netstandard2.0/Lands.csprojAssemblyReference.cache
 /Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/Debug/netstandard2.0/Views/LandsPage.xaml.g.cs
 /Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
 /Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/Debug/netstandard2.0/Lands.csproj.CoreCompileInputs.cache
 /Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/Debug/netstandard2.0/Lands.AssemblyInfoInputs.cache
@@ -11,3 +12,4 @@
 /Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/Debug/netstandard2.0/Lands.dll
 /Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/Debug/netstandard2.0/Lands.pdb
+/Users/hugoquinonez/Projects/xamarin/Lands/Lands/obj/Debug/netstandard2.0/Views/LandPage.xaml.g.cs
